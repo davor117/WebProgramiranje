@@ -1,0 +1,31 @@
+body {
+    font-family: 'BIZ UDPGothic';
+}
+
+#btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: orange;
+    border: 2px solid orange;
+    outline: none;
+    font-weight: bolder;
+    color: white;
+    padding-bottom: 4px;
+    padding: 0px;
+    border: 2px solid black;
+    transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+    text-shadow: none;
+    border: 2px solid black;
+    cursor: pointer;
+}

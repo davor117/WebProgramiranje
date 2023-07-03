@@ -1,0 +1,92 @@
+body {
+    font-family: 'BIZ UDPGothic';
+    background-color: orange;
+}
+
+.make-post{
+    background-color: rgb(255, 171, 15);
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    margin-top: 10dvh;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(139, 67, 0);
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+#pet-inputs{
+    margin-bottom: 8px;
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#pet-inputs::placeholder{
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+#pet-inputs:focus{
+    outline: none;
+    box-shadow: 5px 5px 5px rgb(139, 67, 0);
+}
+
+#btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-weight: 900;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgb(83, 54, 0);
+    cursor: pointer;
+}
+
+#btn:hover{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#pet-image{
+    margin-bottom: 8px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#pet-description{
+    width: 260px;
+    height: 80px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
